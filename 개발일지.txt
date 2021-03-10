@@ -1,0 +1,12 @@
+뒤늦게 쓴 감이 있긴하지만 일단
+병신같은 파이썬답게 버전에서부터 오류충돌
+cv2.imshow()의 함수가 gtk어쩌구가 안깔려서 안돌아감.
+해결방법->파이썬3.7 부터는 opecv 4.x버전 지원;;;;;;;
+
+스레드때문에 개고생하고있었는데 그냥 
+from multiprocessing import Process
+
+test1=Process(target=screencapture)
+이걸로 해결 ㅋㅋ 시발 거의 한달 삽질했네...
+
+exe파일로 변환하는 과정에서 매우 고생함^_^
